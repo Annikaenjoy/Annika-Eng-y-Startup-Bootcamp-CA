@@ -1,0 +1,30 @@
+.contact_box {
+  width: 400px;
+  background-color: $color-secondary;
+  padding: 50px;
+  justify-content: center;
+}
+.form_input {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  background-color: $color-white;
+  min-width: 300px;
+  margin: 10px 0px;
+  font-family: $font-primary;
+  font-size: 14px;
+  padding: 5px;
+}
+#message {
+  min-height: 150px;
+}
+.form-button {
+  width: 300px;
+  padding: 5px;
+  margin: 10px 0px;
+  font-family: $font-primary;
+  font-size: 14px;
+  text-align: center;
+  color: $color-white;
+  background: $color-primary;
+}

@@ -1,0 +1,31 @@
+.heading_container {
+  position: relative;
+  top: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.top_heading1,
+.top_heading2 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.top_heading2 {
+  top: 30px;
+  font-weight: 600;
+}
+
+.profile_image {
+  width: 400px;
+}
+.cta_button {
+  width: 180px;
+  padding: 10px;
+  background-color: $color-secondary;
+  color: $color-white;
+  font-family: $font-primary;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 60px;
+  display: flex;
+  align-self: center;
+}
