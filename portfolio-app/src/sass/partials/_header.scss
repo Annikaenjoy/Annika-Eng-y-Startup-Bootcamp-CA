@@ -33,9 +33,11 @@
   font-family: $font-primary;
   font-size: 24px;
   font-weight: 600;
-  margin-top: 20px;
   display: flex;
+  justify-content: center;
   align-self: center;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
 @media (min-width: 600px) {
   .top_heading1,

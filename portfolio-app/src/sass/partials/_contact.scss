@@ -7,6 +7,7 @@
   width: 90%;
   background-color: $color-secondary;
   padding: 50px;
+  border-radius: 5px;
 }
 .form_input {
   display: flex;
@@ -18,6 +19,7 @@
   font-family: $font-primary;
   font-size: 14px;
   padding: 10px;
+  border-radius: 5px;
 }
 #message {
   min-height: 150px;
@@ -31,4 +33,5 @@
   text-align: center;
   color: $color-white;
   background: $color-primary;
+  border-radius: 5px;
 }
