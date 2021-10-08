@@ -1,19 +1,26 @@
 .heading_container {
   position: relative;
-  top: 0;
+  top: 0px;
   text-align: center;
   margin: 0 auto;
 }
 .top_heading1,
 .top_heading2 {
   font-size: 60px;
+  text-align: center;
   text-transform: uppercase;
+  top: 30px;
 }
 .top_heading2 {
-  top: 30px;
   font-weight: 600;
 }
 
+.frontend_container {
+  position: relative;
+  top: -40px;
+  text-align: center;
+  margin: 0 auto;
+}
 .profile_image {
   width: 80%;
   margin: auto;
@@ -26,7 +33,18 @@
   font-family: $font-primary;
   font-size: 24px;
   font-weight: 600;
-  margin-top: 60px;
+  margin-top: 20px;
   display: flex;
   align-self: center;
+}
+@media (min-width: 600px) {
+  .top_heading1,
+  .top_heading2 {
+    font-size: 90px;
+    text-transform: uppercase;
+  }
+  .top_heading2 {
+    top: 50px;
+    font-weight: 600;
+  }
 }

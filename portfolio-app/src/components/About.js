@@ -9,8 +9,7 @@ const AboutMe = (props) => {
       </div>
       <h3 className="description_text">
         Hi! I'm Annika. I work as a frontend developer in Mosjøen, Norway. I
-        love combining code with good UX/UI and great design. Take a look at my
-        work!
+        love combining code with good UX/UI and great design.
       </h3>
       <div className="box1">
         <p>

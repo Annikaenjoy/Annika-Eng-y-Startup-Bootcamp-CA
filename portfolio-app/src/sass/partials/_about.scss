@@ -1,11 +1,13 @@
 .description_text {
   width: 400px;
+  text-align: center;
+  margin: 15px auto 25px;
 }
 
 .box1 {
   background-color: $color-secondary;
   color: $color-white;
-  width: 400px;
+  width: 90%;
   padding: 25px;
   margin: auto;
   margin-bottom: 30px;
@@ -14,7 +16,7 @@
 .box2 {
   background-color: $color-white;
   color: $color-primary;
-  width: 400px;
+  width: 90%;
   padding: 25px;
   margin: auto;
   margin-bottom: 23px;

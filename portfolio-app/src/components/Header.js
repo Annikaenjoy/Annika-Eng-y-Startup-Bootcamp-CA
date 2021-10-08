@@ -11,7 +11,7 @@ const Header = (props) => {
         title="Picture of me"
         alt="Picture of Annika Engøy"
       />
-      <div className="heading_container">
+      <div className="frontend_container">
         <h1 className="top_heading1">Frontend</h1>
         <h2 className="top_heading2">Developer</h2>
       </div>
