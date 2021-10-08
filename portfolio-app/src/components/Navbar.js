@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 // Logo
-// import Logo from "../assets/img/Flexboks_logo.png";
+import Logo from "../assets/img/Logo-a1.png";
 
 const NavBar = () => {
   return (
@@ -19,7 +19,7 @@ const NavBar = () => {
         expand="lg"
       >
         <Navbar.Brand href="/">
-          {/* <img className="logo" src={Logo} alt="logo" /> */}
+          <img className="logo" src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
