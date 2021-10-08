@@ -11,7 +11,13 @@ import Nav from "react-bootstrap/Nav";
 const NavBar = () => {
   return (
     <>
-      <Navbar sticky="top" className="navbar" bg="background" expand="lg">
+      <Navbar
+        sticky="top"
+        className="navbar"
+        bg="background"
+        variant="dark"
+        expand="lg"
+      >
         <Navbar.Brand href="/">
           {/* <img className="logo" src={Logo} alt="logo" /> */}
         </Navbar.Brand>
