@@ -17,7 +17,7 @@
 
 .frontend_container {
   position: relative;
-  top: -40px;
+  top: -65px;
   text-align: center;
   margin: 0 auto;
 }
@@ -40,6 +40,10 @@
   margin-bottom: 100px;
 }
 @media (min-width: 600px) {
+  .frontend_container {
+    position: relative;
+    top: -75px;
+  }
   .top_heading1,
   .top_heading2 {
     font-size: 90px;
