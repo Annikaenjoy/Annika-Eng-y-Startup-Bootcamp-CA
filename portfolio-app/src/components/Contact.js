@@ -4,10 +4,13 @@ const ContactMe = (props) => {
   return (
     <>
       <div className="heading_container">
-        <h1>Contact</h1>
-        <h2>me</h2>
+        <div className="contact_heading">
+          <h1>Contact</h1>
+          <h2 className="contact_h2">me</h2>
+        </div>
       </div>
       <div className="contact_box">
+        {" "}
         <form>
           <input
             className="form_input"
