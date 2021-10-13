@@ -1,6 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// React-scroll
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
+
 // React Bootstrap
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -24,18 +36,46 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navbar-position ml-auto">
-            <NavLink className="nav_link" exact to="/">
+            <Link
+              className="nav_link"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               Home
-            </NavLink>
-            <NavLink className="nav_link" to="/about">
+            </Link>
+            <Link
+              className="nav_link"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               About
-            </NavLink>
-            <NavLink className="nav_link" to="/portfolio">
+            </Link>
+            <Link
+              className="nav_link"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               Portfolio
-            </NavLink>
-            <NavLink className="nav_link" to="/contact">
+            </Link>
+            <Link
+              className="nav_link"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               Contact
-            </NavLink>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

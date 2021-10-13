@@ -1,0 +1,62 @@
+.portfolio-container {
+  margin: 30px auto;
+}
+.portfolio-col {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.portfolio_img {
+  width: 100%;
+  margin: 20px 0px;
+  z-index: 100;
+  border-radius: 5px;
+}
+.portfolio_img:hover {
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.portfolio_logo {
+  position: absolute;
+  width: 45%;
+  top: 30%;
+  justify-content: center;
+  z-index: -10;
+}
+.portfolio_logo_2 {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  justify-content: center;
+  z-index: -10;
+}
+.portfolio_logo_3 {
+  position: absolute;
+  width: 55%;
+  top: 45%;
+  justify-content: center;
+  z-index: -10;
+}
+.portfolio_logo_4 {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  justify-content: center;
+  z-index: -10;
+}
+.portfolio_logo_5 {
+  position: absolute;
+  width: 70%;
+  top: 40%;
+  justify-content: center;
+  z-index: -10;
+}
+.portfolio_logo_6 {
+  position: absolute;
+  width: 60%;
+  top: 20%;
+  justify-content: center;
+  z-index: -10;
+}

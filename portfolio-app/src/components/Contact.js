@@ -1,8 +1,13 @@
 import React from "react";
 
+// React Scroll
+import { Element } from "react-scroll";
+
 const ContactMe = (props) => {
   return (
     <>
+      <Element name="contact"></Element>
+
       <div className="heading_container">
         <div className="contact_heading">
           <h1>Contact</h1>

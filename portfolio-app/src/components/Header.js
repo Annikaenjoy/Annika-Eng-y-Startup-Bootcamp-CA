@@ -1,6 +1,10 @@
 import React from "react";
 
+// Image
 import Annika from "../assets/img/Annika_square.jpg";
+
+// React Scroll
+import { Element } from "react-scroll";
 
 const Header = (props) => {
   return (

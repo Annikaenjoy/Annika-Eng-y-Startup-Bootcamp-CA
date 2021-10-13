@@ -7,7 +7,7 @@
   justify-content: flex-end;
 }
 .logo {
-  width: 75px;
+  width: 70px;
   height: auto;
   margin-left: 20px;
 }
@@ -15,7 +15,12 @@
   margin-right: 20px;
   border: none;
 }
-
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-toggler-icon {
+  width: 40px;
+}
 .nav_link {
   margin-right: 5px;
   font-family: $font-primary;
@@ -23,6 +28,7 @@
   font-weight: 400;
   padding: 20px;
   color: $color-white !important;
+  cursor: pointer;
 }
 
 .nav_link:hover {
