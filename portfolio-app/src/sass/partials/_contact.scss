@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   border: none;
   background-color: $color-white;
-  width: 300px;
+  width: 90%;
   margin: 10px auto;
   font-family: $font-primary;
   font-size: 14px;
@@ -25,13 +25,24 @@
   min-height: 150px;
 }
 .form-button {
-  width: 300px;
+  width: 90%;
   padding: 10px;
-  margin: 10px auto;
+  margin: auto;
   font-family: $font-primary;
   font-size: 14px;
   text-align: center;
   color: $color-white;
   background: $color-primary;
   border-radius: 5px;
+  border: none;
+  display: block;
+}
+
+@media (min-width: 700px) {
+  .form_input {
+    width: 70%;
+  }
+  .form-button {
+    width: 70%;
+  }
 }

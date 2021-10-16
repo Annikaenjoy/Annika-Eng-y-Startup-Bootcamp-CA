@@ -9,11 +9,12 @@ import { Element } from "react-scroll";
 const Header = (props) => {
   return (
     <>
+      <Element name="home"></Element>
       <img
         className="profile_image"
         src={Annika}
-        title="Picture of me"
-        alt="Picture of Annika Engøy"
+        title="This is me"
+        alt="Annika Engøy"
       />
       <div className="frontend_container">
         <h1 className="top_heading1">Frontend</h1>

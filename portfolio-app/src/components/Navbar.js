@@ -1,17 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
-// React-scroll
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 // React Bootstrap
 import Navbar from "react-bootstrap/Navbar";
@@ -24,7 +13,7 @@ const NavBar = () => {
   return (
     <>
       <Navbar
-        sticky="top"
+        fixed="top"
         className="navbar"
         bg="background"
         variant="dark"
