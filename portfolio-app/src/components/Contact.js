@@ -5,13 +5,6 @@ import { send } from "emailjs-com";
 // React Scroll
 import { Element } from "react-scroll";
 
-// Icons
-import { IconContext } from "react-icons";
-import { FiFacebook } from "react-icons/fi";
-import { FiLinkedin } from "react-icons/fi";
-import { FiGithub } from "react-icons/fi";
-import { FiHeart } from "react-icons/fi";
-
 const ContactMe = () => {
   const [toSend, setToSend] = useState({
     from_name: "",
@@ -96,25 +89,6 @@ const ContactMe = () => {
             </button>
           </form>
         </div>
-        <IconContext.Provider
-          value={{
-            color: "white",
-            size: "5em",
-            className: "global-class-name",
-          }}
-        >
-          {" "}
-          <a href="https://www.facebook.com/annikalv">
-            <FiFacebook />
-          </a>{" "}
-          <a href="https://www.linkedin.com/in/annika-louise-eng%C3%B8y-b1959b1a4/">
-            <FiLinkedin />
-          </a>{" "}
-          <br />
-          <br />
-          <FiGithub />
-          <FiHeart />
-        </IconContext.Provider>
       </div>
     </>
   );
