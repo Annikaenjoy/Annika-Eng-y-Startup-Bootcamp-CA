@@ -17,13 +17,13 @@
 
 .frontend_container {
   position: relative;
-  top: -65px;
+  top: -135px;
   text-align: center;
   margin: 0 auto;
 }
 .profile_image {
   width: 80%;
-  margin: 40px auto;
+  margin: 100px auto;
 }
 .cta_button {
   width: 180px;
@@ -42,7 +42,7 @@
 @media (min-width: 600px) {
   .frontend_container {
     position: relative;
-    top: -75px;
+    top: -140px;
   }
   .top_heading1,
   .top_heading2 {
@@ -50,7 +50,7 @@
     text-transform: uppercase;
   }
   .top_heading2 {
-    top: 50px;
+    top: 45px;
     font-weight: 600;
   }
 }
