@@ -35,11 +35,9 @@ const ContactMe = () => {
     <>
       <Element name="contact"></Element>
 
-      <div className="heading_container">
-        <div className="contact_heading">
-          <h1>Contact</h1>
-          <h2 className="contact_h2">me</h2>
-        </div>
+      <div className="contact_container">
+        <h1 className="contact_h1">Contact</h1>
+        <h2 className="contact_h2">me</h2>
       </div>
       <div className="contact_box">
         {" "}

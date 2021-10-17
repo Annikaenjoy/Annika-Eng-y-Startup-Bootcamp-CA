@@ -1,9 +1,15 @@
 .contact_h2 {
   color: $color-primary;
 }
+.contact_container {
+  position: relative;
+  top: 55px;
+  text-align: center;
+  margin: 0 auto;
+}
 
 .contact_box {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 90%;
   background-color: $color-secondary;
   padding: 50px;
@@ -44,5 +50,10 @@
   }
   .form-button {
     width: 70%;
+  }
+}
+@media (min-width: 900px) {
+  .contact_box {
+    width: 60%;
   }
 }

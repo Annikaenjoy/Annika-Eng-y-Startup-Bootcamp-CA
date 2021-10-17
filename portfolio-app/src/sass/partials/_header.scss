@@ -43,6 +43,7 @@
   align-self: center;
   border-radius: 5px;
   margin-bottom: 100px;
+  text-align: center;
 }
 @media (min-width: 600px) {
   .frontend_container {
@@ -57,5 +58,76 @@
   .top_heading2 {
     top: 50px;
     font-weight: 600;
+  }
+}
+@media (min-width: 900px) {
+  .home-container {
+    text-align: start;
+  }
+  .profile_image {
+    width: 40%;
+    margin: 40px;
+  }
+  .frontend_container {
+    position: relative;
+    top: -350px;
+    right: -200px;
+    margin: 0;
+  }
+  .cta_button {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    left: 60%;
+  }
+}
+@media (min-width: 1000px) {
+  .cta_button {
+    top: 55%;
+    right: 40%;
+    left: 60%;
+  }
+  .frontend_container {
+    top: -350px;
+    right: -230px;
+    margin: 0;
+  }
+}
+@media (min-width: 1100px) {
+  .cta_button {
+    top: 60%;
+    right: 40%;
+    left: 60%;
+  }
+  .top_heading1,
+  .top_heading2 {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1190px) {
+  .cta_button {
+    top: 68%;
+    right: 40%;
+    left: 60%;
+  }
+}
+@media (min-width: 1290px) {
+  .cta_button {
+    top: 65%;
+    right: 40%;
+    left: 60%;
+  }
+  .frontend_container {
+    top: -450px;
+    right: -250px;
+  }
+  .top_heading1,
+  .top_heading2 {
+    font-size: 120px;
+  }
+}
+@media (min-width: 1290px) {
+  .cta_button {
+    top: 70%;
   }
 }

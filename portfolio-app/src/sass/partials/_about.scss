@@ -1,5 +1,5 @@
 .description_text {
-  width: 400px;
+  width: 80%;
   text-align: center;
   margin: 15px auto 25px;
 }
@@ -14,22 +14,32 @@
   border-radius: 5px;
 }
 
-.box2 {
-  background-color: $color-white;
-  color: $color-primary;
-  width: 90%;
-  padding: 25px;
-  margin: auto;
-  margin-bottom: 23px;
-  border-radius: 5px;
-}
+// .box2 {
+//   background-color: $color-white;
+//   color: $color-primary;
+//   width: 90%;
+//   padding: 25px;
+//   margin: auto;
+//   margin-bottom: 23px;
+//   border-radius: 5px;
+// }
 .box1_link {
   color: $color-white;
   float: right;
   font-weight: 600;
 }
-.box2_link {
-  color: $color-primary;
-  float: right;
-  font-weight: 600;
+// .box2_link {
+//   color: $color-primary;
+//   float: right;
+//   font-weight: 600;
+// }
+@media (min-width: 600px) {
+  .description_text {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .box1 {
+    width: 60%;
+  }
 }

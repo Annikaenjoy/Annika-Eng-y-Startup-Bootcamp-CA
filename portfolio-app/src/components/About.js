@@ -1,5 +1,10 @@
 import React from "react";
 
+// // React Bootstrap
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
+
 // React Scroll
 import { Element } from "react-scroll";
 
@@ -7,6 +12,9 @@ const AboutMe = (props) => {
   return (
     <>
       <Element name="about"></Element>
+      {/* <Container className="about_container">
+        <Row>
+          <Col> */}
       <div className="heading_container">
         <h1>About</h1>
         <h2>me</h2>
@@ -15,6 +23,8 @@ const AboutMe = (props) => {
         Hi! I'm Annika. I work as a frontend developer in Mosjøen, Norway. I
         love combining code with good UX/UI and great design.
       </h3>
+      {/* </Col>
+          <Col> */}{" "}
       <div className="box1">
         <p>
           My interest in coding started back in 2010 creating blog themes with
@@ -28,6 +38,9 @@ const AboutMe = (props) => {
           identity. Here you can check out some of the websites I've created.
         </p>
       </div>
+      {/* </Col> */}
+      {/* </Row> */}
+      {/* </Container> */}
     </>
   );
 };
