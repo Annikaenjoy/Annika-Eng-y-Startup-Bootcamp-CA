@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8009185.chunk.css",
+    "main.js": "/static/js/main.5a607f65.chunk.js",
+    "main.js.map": "/static/js/main.5a607f65.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05489630.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05489630.js.map",
+    "static/js/2.a2d3c82e.chunk.js": "/static/js/2.a2d3c82e.chunk.js",
+    "static/js/2.a2d3c82e.chunk.js.map": "/static/js/2.a2d3c82e.chunk.js.map",
+    "static/js/3.99b72c93.chunk.js": "/static/js/3.99b72c93.chunk.js",
+    "static/js/3.99b72c93.chunk.js.map": "/static/js/3.99b72c93.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f8009185.chunk.css.map": "/static/css/main.f8009185.chunk.css.map",
+    "static/js/2.a2d3c82e.chunk.js.LICENSE.txt": "/static/js/2.a2d3c82e.chunk.js.LICENSE.txt",
+    "static/media/Annika_square.38680b0c.jpg": "/static/media/Annika_square.38680b0c.jpg",
+    "static/media/CSM.cd4f402e.jpg": "/static/media/CSM.cd4f402e.jpg",
+    "static/media/Flexboks_logo.d5f20322.png": "/static/media/Flexboks_logo.d5f20322.png",
+    "static/media/MH.5fefa596.jpg": "/static/media/MH.5fefa596.jpg",
+    "static/media/NNKM.af6d6d67.jpg": "/static/media/NNKM.af6d6d67.jpg",
+    "static/media/NNKM_trans_01_white.42402817.png": "/static/media/NNKM_trans_01_white.42402817.png",
+    "static/media/flexboks-web.ddd97876.jpg": "/static/media/flexboks-web.ddd97876.jpg",
+    "static/media/ireg-logo.1d27d2b2.png": "/static/media/ireg-logo.1d27d2b2.png",
+    "static/media/ireg-no.8bc1792b.jpg": "/static/media/ireg-no.8bc1792b.jpg",
+    "static/media/spacex.295ffe27.jpg": "/static/media/spacex.295ffe27.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05489630.js",
+    "static/js/2.a2d3c82e.chunk.js",
+    "static/css/main.f8009185.chunk.css",
+    "static/js/main.5a607f65.chunk.js"
+  ]
+}

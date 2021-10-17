@@ -45,6 +45,9 @@
   margin-bottom: 100px;
   text-align: center;
 }
+.cta_button:hover {
+  color: $color-primary;
+}
 .lottie_animation {
   position: relative;
   top: 0;

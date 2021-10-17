@@ -26,8 +26,8 @@ const Header = (props) => {
           <h2 className="top_heading2">Developer</h2>
         </div>{" "}
       </div>
-      <a href="mailto:annikaa@live.no">
-        <div className="cta_button">Contact me</div>
+      <a className="cta_button" href="mailto:annikaa@live.no">
+        <div>Contact me</div>
       </a>
 
       <div className="lottie_animation">
