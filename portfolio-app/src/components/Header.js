@@ -1,5 +1,9 @@
 import React from "react";
 
+// Lottie
+import LottieAnimation from "../components/Lottie";
+import home from "../assets/animation/lottie.json";
+
 // Image
 import Annika from "../assets/img/Annika_square.jpg";
 
@@ -22,7 +26,13 @@ const Header = (props) => {
           <h2 className="top_heading2">Developer</h2>
         </div>{" "}
       </div>
-      <div className="cta_button">Contact me</div>
+      <a href="mailto:annikaa@live.no">
+        <div className="cta_button">Contact me</div>
+      </a>
+
+      <div className="lottie_animation">
+        <LottieAnimation lotti={home} height={300} width={300} />
+      </div>
     </>
   );
 };

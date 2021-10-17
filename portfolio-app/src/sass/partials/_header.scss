@@ -45,6 +45,11 @@
   margin-bottom: 100px;
   text-align: center;
 }
+.lottie_animation {
+  position: relative;
+  top: 0;
+  display: none;
+}
 @media (min-width: 600px) {
   .frontend_container {
     position: relative;
@@ -110,8 +115,14 @@
     right: 40%;
     left: 60%;
   }
+  .top_heading2 {
+    top: 60px;
+  }
 }
 @media (min-width: 1290px) {
+  .lottie_animation {
+    display: block;
+  }
   .cta_button {
     top: 65%;
     right: 40%;

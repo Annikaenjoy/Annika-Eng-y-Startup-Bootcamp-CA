@@ -28,9 +28,9 @@ const Footer = (props) => {
           <a href="https://github.com/Annikaenjoy">
             <FiGithub />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <FiHeart />
-          </a>
+          </a> */}
         </IconContext.Provider>
         <p> &copy; Designed & built by Annika Engøy 2021</p>
       </div>
