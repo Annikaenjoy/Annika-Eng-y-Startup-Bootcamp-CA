@@ -47,13 +47,13 @@ const Portfolio = (props) => {
             </a>
           </Col>
           <Col className="portfolio-col" md={4}>
+            <img
+              className="portfolio_logo_2"
+              src={SpaceLogo}
+              alt="SpaceX Logo"
+              title="SpaceX Logo"
+            />{" "}
             <a href="https://annikaenjoy.no/portfolio/sp1/">
-              <img
-                className="portfolio_logo_2"
-                src={SpaceLogo}
-                alt="SpaceX Logo"
-                title="SpaceX Logo"
-              />
               <img
                 className="portfolio_img"
                 src={SpaceX}
@@ -63,13 +63,13 @@ const Portfolio = (props) => {
             </a>
           </Col>
           <Col className="portfolio-col" md={4}>
+            <img
+              className="portfolio_logo_3"
+              src={MHlogo}
+              alt="Mosjøen Hotell Logo"
+              title="Mosjøen Hotell Logo"
+            />{" "}
             <a href="https://mosjoenhotell.no/">
-              <img
-                className="portfolio_logo_3"
-                src={MHlogo}
-                alt="Mosjøen Hotell Logo"
-                title="Mosjøen Hotell Logo"
-              />
               <img
                 className="portfolio_img"
                 src={MH}
@@ -79,13 +79,13 @@ const Portfolio = (props) => {
             </a>
           </Col>
           <Col className="portfolio-col" md={4}>
+            <img
+              className="portfolio_logo_4"
+              src={iRegLogo}
+              alt="iReg Logo"
+              title="iReg Logo"
+            />{" "}
             <a href="https://ireg.no/">
-              <img
-                className="portfolio_logo_4"
-                src={iRegLogo}
-                alt="iReg Logo"
-                title="iReg Logo"
-              />
               <img
                 className="portfolio_img"
                 src={iReg}
@@ -95,13 +95,13 @@ const Portfolio = (props) => {
             </a>
           </Col>
           <Col className="portfolio-col" md={4}>
+            <img
+              className="portfolio_logo_5"
+              src={FlexLogo}
+              alt="Flexboks Logo"
+              title="Flexboks Logo"
+            />{" "}
             <a href="https://flexboks.com/">
-              <img
-                className="portfolio_logo_5"
-                src={FlexLogo}
-                alt="Flexboks Logo"
-                title="Flexboks Logo"
-              />
               <img
                 className="portfolio_img"
                 src={Flexboks}
@@ -111,13 +111,13 @@ const Portfolio = (props) => {
             </a>
           </Col>
           <Col className="portfolio-col" md={4}>
+            <img
+              className="portfolio_logo_6"
+              src={NNKMlogo}
+              alt="Nord Norsk Kompetansesenter MAT Logo"
+              title="NNKM Logo"
+            />{" "}
             <a href="https://www.nnkmat.no/">
-              <img
-                className="portfolio_logo_6"
-                src={NNKMlogo}
-                alt="Nord Norsk Kompetansesenter MAT Logo"
-                title="NNKM Logo"
-              />
               <img
                 className="portfolio_img"
                 src={NNKM}
