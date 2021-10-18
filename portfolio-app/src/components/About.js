@@ -15,7 +15,7 @@ const AboutMe = (props) => {
         <Element name="about"></Element>
         <Container className="about_container">
           <Row>
-            <Col md={6}>
+            <Col className="about_col1" md={6}>
               <div className="heading_container">
                 <h1 className="about_h1">About</h1>
                 <h2 className="about_h2">me</h2>
