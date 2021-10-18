@@ -43,6 +43,21 @@
   border: none;
   display: block;
 }
+.setFormError {
+  font-family: $font-secondary;
+  font-size: 14px;
+  color: $color-white;
+  padding: 5px;
+  text-align: center;
+}
+
+.setFormSuccess {
+  text-align: center;
+  font-family: $font-secondary;
+  font-size: 14px;
+  color: $color-white;
+  padding: 5px;
+}
 
 @media (min-width: 700px) {
   .form_input {
