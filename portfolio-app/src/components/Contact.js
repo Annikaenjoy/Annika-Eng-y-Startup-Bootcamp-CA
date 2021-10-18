@@ -60,6 +60,7 @@ const ContactMe = () => {
         .then((response) => {
           console.log("SUCCESS!", response.status, response.text);
           setFormSuccess("Your message has successfully been sendt!");
+          setFormData({ from_name: "", reply_to: "", message: "" });
           setTimeout(() => {
             setFormSuccess(null);
           }, 5000);
