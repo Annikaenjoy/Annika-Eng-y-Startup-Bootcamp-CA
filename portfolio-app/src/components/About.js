@@ -21,7 +21,7 @@ const AboutMe = (props) => {
                 <h2 className="about_h2">me</h2>
               </div>
               <h3 className="description_text">
-                Hi! I'm Annika. I work as a frontend developer in Mosjøen,
+                Hi! I'm Annika. I'm a frontend developer located in Mosjøen,
                 Norway. I love combining code with good UX/UI and great design.
               </h3>
             </Col>
@@ -33,12 +33,17 @@ const AboutMe = (props) => {
                   I decided to turn my hobby into a career. In March 2020 I
                   started studying Frontend Development at Noroff School of
                   Technology and Digital Media, and I could not be happier.{" "}
-                  <br /> <br />
-                  Today I have the priviledge of working as a Frontend Developer
+                  <br /> <br />A year into my studies I got a job as a Frontend
+                  Developer in a startup company, creating our own products and
+                  helping various clients build their digital brand and
+                  identity. I then went on to work at TietoEvry as an Analyst at
+                  their Financial Crime Prevention Center. I'm now on maternity
+                  leave.
+                  {/* Today I have the priviledge of working as a Frontend Developer
                   in a startup company, being there every step of the way
                   building our own products and helping various clients build
                   their digital brand and identity. Here you can check out some
-                  of the websites I've created.
+                  of the websites I've created. */}
                 </p>
               </div>
             </Col>
